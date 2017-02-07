@@ -2,7 +2,7 @@ $(document).ready(function(){
     $("#arrow").mouseover(function(){
         $(this).css('border-right','9px solid #e21c21');
         $(this).css('border-bottom','9px solid #e21c21');
-        $(this).css('margin-left', '-18px');
+        $(this).css('margin-left', '-19px');
         $("#btn1").css('border-color', 'transparent transparent #e3e3e3 transparent');
     });
     $("#arrow").mouseout(function(){
@@ -15,7 +15,6 @@ $(document).ready(function(){
         $("#welcome").animate({
             height: '30%',
             paddingTop: '150px',
-            background: '../images/background_github.png'
         });
         $("h1").animate({
             fontSize: '78px'

@@ -1,0 +1,70 @@
+#about {
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    margin: 0 auto;
+    height: 805px;
+    z-index: 500;
+}
+
+#title_about {
+    margin-top: 115px;
+    font-size: 36px;
+    text-align: center;
+    color: #45484B;
+}
+
+#profile {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+}
+
+#intro {
+    margin-top: 70px;
+}
+
+#intro_text {
+    color: #45484B;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 1.5;
+    float: right;
+    margin-right: 20px;
+    width: 600px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+#signature {
+    color: #e21c21;
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+
+#resume_button {
+    display: block;
+    width: 13%;
+    margin: 0px auto;
+    margin-top: 500px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #e21c21;
+    background: white;
+    font-size: 36px;
+    border-style: solid;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+#resume_button:hover {
+    color: white;
+    width: 14%;
+    border-color: #e21c21;
+    background: #e21c21;
+}

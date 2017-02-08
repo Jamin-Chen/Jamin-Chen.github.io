@@ -13,21 +13,21 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: relative;
     overflow-x: hidden;
 }
 
 h1 {
     color: inherit;
-    font-size: 96px;
+    font-size: 12vh;
     font-weight: 400;
 }
 
 h2 {
     color: inherit;
-    font-size: 36px;
+    font-size: 4.5vh;
     font-weight: lighter;
 }
 

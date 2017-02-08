@@ -7,8 +7,6 @@ function preload(arrayOfImages) {
     console.log("done loading");
 }
 
-// Usage:
-
 preload([
     './img/background_github.png',
     './img/background_linkedin.png',

@@ -14,6 +14,7 @@ $(document).ready(function(){
         $("#welcome_icons").stop().fadeIn(300);
         $("h2:not(#learn_more)").stop().animate({opacity:1}, {duration: 300});
         $("#learn_more").stop().animate({opacity:0}, {duration: 300, queue: false  });
+        $('#welcome').css('-webkit-transform', 'rotateX(0)');
         $('#welcome').css('background-image', 'url('+'./img/header_background.jpg'+')');
     });
     // mouse over github icon

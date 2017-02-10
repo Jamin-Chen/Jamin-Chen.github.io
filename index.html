@@ -19,6 +19,7 @@
 <!-- CSS
 ============================================================================ -->
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/main.css"/>
     <link rel="stylesheet" type="text/css" href="./css/header.css"/>
     <link rel="stylesheet" type="text/css" href="./css/welcome.css"/>
@@ -59,16 +60,9 @@
     </header>
     <!-- Slides -->
 
-    <div id="welcome">
-        <div class="content">
-            <div id="welcome_text">
-                <div id="welcome_icons">
-                    <ul>
-                        <li><a href="https://github.com/jamin-chen"><i class="fa fa-github-square fa-4x"></i></a></li>
-                        <li><a href="https://linkedin.com/in/jaminchen"><i class="fa fa-linkedin-square fa-4x"></i></a></li>
-                        <li><a href="mailto:jaminche@usc.edu"><i class="fa fa-envelope-square fa-4x"></i></a></li>
-                    </ul>
-                </div>
+    <div id="welcome" class="container-fluid">
+        <div class="row">
+            <div id="welcome_text" class="col-md-7 col-md-offset-2">
                 <h2>Hello, my name is</h2>
                 <h1><span class="adj" id="big_name"><a href="#" onclick="return false">Jamin Chen</a></span></h1>
                 <div id="welcome_text3"><h2>I'm a
@@ -80,12 +74,19 @@
                 </h2></div>
                 <h2 id="learn_more">When I'm not coding I'm ...</h2>
             </div>
+            <div id="welcome_icons" class="col-md-1 col-md-offset-0">
+                <ul>
+                    <li><a href="https://github.com/jamin-chen"><i class="fa fa-github-square fa-4x"></i></a></li>
+                    <li><a href="https://linkedin.com/in/jaminchen"><i class="fa fa-linkedin-square fa-4x"></i></a></li>
+                    <li><a href="mailto:jaminche@usc.edu"><i class="fa fa-envelope-square fa-4x"></i></a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div id="about">
+    <div id="about" class="container-fluid">
         <button id="btn1"><div id="arrow"></div></button>
-        <div class="content">
+        <div class="container">
             <div id="title_about">A little bit about me...</div>
             <div id="intro">
                 <img id="profile" src="./img/me.jpg">
@@ -108,29 +109,9 @@
                 </div>
             </div>
         </div>
-        <div class="center"><a href="http://media.wix.com/ugd/5259e2_a341e80d23ea4d35b0dcbf80e13c85b1.pdf" id="resume_button"><span>RÉSUMÉ</span></a></div>
-    </div>
-    <div id="portfolio">
-        <div class="content">
-            <h3>Portfolio</h3>
-            <div class="project_box">
-                <img src="./img/hashmap_icon.png">
-                <h4>Hashmap</h4>
-                <ul>
-                    <li>Coded C++ hashmap class from scratch</li>
-                    <li>Used only primitive types</li>
-                </ul>
-                <a href="https://github.com/Jamin-Chen/hashmap" class="git_button">REPO</a>
-            </div>
-        </div>
-    </div>
-    <div id="resume">
-        <div class="content">
-            resume stuff here
-        </div>
     </div>
     <footer>
-        <div id="SITE_FOOTER">This site was designed with 100% recycled electrons.</div>
+        <div id="SITE_FOOTER">The rest of the site is under construction--exciting things to come in a few days! (updated 2/10)</div>
     </footer>
 </body>
 </html>

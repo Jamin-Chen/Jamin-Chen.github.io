@@ -1,27 +1,19 @@
 #about {
-    position: relative;
-    width: 100%;
     background-color: white;
-    margin: 0 auto;
-    height: 805px;
+    height: 100vh;
     z-index: 500;
 }
 
-#title_about {
-    margin-top: 115px;
+.title {
+    margin-top: 100px;
+    margin-bottom: 100px;
     font-size: 36px;
     text-align: center;
     color: #45484B;
 }
 
 #profile {
-    width: 250px;
-    height: 250px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    float: left;
-    margin-left: 20px;
+    width: 18%;
 }
 
 #intro {
@@ -33,9 +25,6 @@
     font-weight: lighter;
     font-size: 17px;
     line-height: 1.5;
-    float: right;
-    margin-right: 20px;
-    width: 600px;
     position: relative;
     word-wrap: break-word;
 }

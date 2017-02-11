@@ -12,6 +12,7 @@ $(document).ready(function(){
         $("#btn1").css('border-color', 'transparent transparent white transparent');
     });
     $("#btn1").click(function(){
+        /*
         $("#welcome").animate({
             height: '30%',
             paddingTop: '150px',
@@ -25,7 +26,8 @@ $(document).ready(function(){
         $("#welcome_icons").animate({
             marginTop: '-50px'
         })
+        */
         $("#btn1").fadeOut(300);
-        $('html, body').animate({scrollTop: $('#about').offset().top - .7 * $("#welcome").height()}, "slow");
+        $('html, body').animate({scrollTop: $('#about').offset().top /*- .7 * $("#welcome").height()*/}, "slow");
     });
 });

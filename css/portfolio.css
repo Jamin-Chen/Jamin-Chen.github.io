@@ -1,6 +1,7 @@
 #portfolio {
     margin: auto;
-    height: 300vh;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
     max-width: 100%;
     background-color: #e9f0f5;
 }

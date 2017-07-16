@@ -1,64 +1,153 @@
-html {
-    height: 100%;
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-    font-family: 'Roboto', sans-serif;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    overflow-x: hidden;
-}
+  font-family: "Roboto", sans-serif; }
+
+p {
+  font-weight: 300; }
 
 h1 {
-    color: inherit;
-    font-size: 12vh;
-    font-weight: 400;
-}
+  font-weight: 300;
+  font-size: 45pt;
+  margin: 0; }
 
 h2 {
-    color: inherit;
-    font-size: 4.5vh;
-    font-weight: lighter;
-}
+  font-weight: 400;
+  font-size: 20pt;
+  margin-left: 0; }
 
-#resume {
-    width: 100%;
-    position: relative;
-    background-color: salmon;
-    margin: 0 auto;
-    height: 600px;
-}
+h3 {
+  font-weight: 400;
+  font-size: 16pt;
+  margin: 0;
+  white-space: nowrap; }
 
-.content {
-    margin: 0 auto;
-    width: 65%;
-}
+h4 {
+  font-weight: 300;
+  font-size: 12pt;
+  margin: 0; }
 
-.center {
-  text-align: center;
-}
+#buttons {
+  margin-top: 14px; }
+  #buttons div {
+    text-align: center; }
+  #buttons .github-icon {
+    color: black; }
+    #buttons .github-icon:hover {
+      color: #6e5494;
+      transition: color 0.2s ease; }
+  #buttons .linkedin-icon {
+    color: black; }
+    #buttons .linkedin-icon:hover {
+      color: #0077b5;
+      transition: color 0.2s ease; }
+  #buttons .mail-icon {
+    color: black; }
+    #buttons .mail-icon:hover {
+      color: #d34836;
+      transition: color 0.2s ease; }
 
-#SITE_FOOTER {
-    position: relative;
-    height: 30px;
-    background-color: #45484B;
-	bottom: 0px;
-	width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-    color: white;
-	text-align: center;
-	font-weight: 100;
-	font-size: 14px;
-}
+.project-title {
+  color: black; }
+  .project-title:hover {
+    color: #6e5494;
+    transition: color 0.2s ease; }
+
+ul {
+  font-size: 14px;
+  font-weight: 300;
+  list-style: none;
+  margin-left: -.5em;
+  padding-left: 1em;
+  text-indent: -.6em; }
+
+hr {
+  border-color: #eee; }
+
+.section {
+  padding-left: 3%; }
+  .section .section-item {
+    padding-left: 3%; }
+    .section .section-item .section-item-header {
+      position: relative; }
+    .section .section-item .section-item-content {
+      padding-left: 3%;
+      margin-right: 60px; }
+
+.date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 300; }
+
+#background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px); }
+
+#content-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  position: relative;
+  width: 8.5in;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  padding: 3%; }
+
+@media only screen and (max-width: 540px) {
+  .fa {
+    font-size: 2em !important; } }
+@media only screen and (max-width: 767px) {
+  h1 {
+    text-align: center; }
+
+  #site-header {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+
+  #title {
+    margin-bottom: 20px; }
+
+  .honor {
+    margin-bottom: 0; }
+
+  .fa {
+    font-size: 2.5em; } }
+@media only screen and (max-width: 992px) {
+  #content-container {
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%; }
+
+  .bullet-show {
+    display: inline; }
+
+  .bullet-hide {
+    display: none; } }
+@media only screen and (max-width: 768px) {
+  .abbreviated {
+    display: inline; }
+
+  .expanded {
+    display: none; } }
+@media only screen and (min-width: 768px) {
+  .abbreviated {
+    display: none; }
+
+  .expanded {
+    display: inline; } }
+@media only screen and (min-width: 992px) {
+  .bullet-show {
+    display: none; }
+
+  .bullet-hide {
+    display: inline; } }
+
+/*# sourceMappingURL=main.css.map */

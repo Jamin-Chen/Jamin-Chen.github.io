@@ -41,7 +41,9 @@
               <a href="https://linkedin.com/in/jaminchen" target="_blank"><i class="fa fa-linkedin-square fa-3x linkedin-icon"></i></a>
             </div>
             <div class="col-xs-2 col-sm-3 col-md-3 col-lg-3">
-              <a href="mailto:jaminche@usc.edu" target="_blank"><i class="fa fa-envelope-square fa-3x mail-icon"></i></a>
+              <a href="mailto:jaminche@usc.edu" target="_blank">
+                <i class="fa fa-envelope-square fa-3x mail-icon" data-toggle="tooltip" title="Say hi!"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -194,7 +196,10 @@
         <div class="section-item">
           <div class="row">
             <div class="col-md-8 col-sm-12 col-xs-12">
-              <p class="honor">USC Viterbi School of Engineering Dean's List</p>
+              <p class="honor">
+                <span style="display: inline-block">USC Viterbi School of Engineering </span>
+                <span style="display: inline-block">Dean's List</span>
+              </p>
             </div>
             <div class="col-md-4 col-sm-12 col-xs-12">
               <p>2016 - 2017</p>
@@ -214,10 +219,24 @@
   </body>
 
   <!-- JS -->
+  <!-- jQuery -->
   <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+  </script>
+  <!-- Bootstrap JS -->
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous">
+  </script>
   <script src="./js/squares.js"></script>
+  <!-- Enable Bootstrap tooltips -->
+  <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 
 </html>

@@ -107,7 +107,7 @@ hr {
 
     .section-item-content {
       padding-left: 3%;
-      margin-right: 60px;
+      margin-right: 10%;
     }
   }
 }
@@ -137,7 +137,7 @@ hr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
   position: relative;
-  width: 8.5in;
+  width: 893px;
   margin-top: 5%;
   margin-bottom: 5%;
   border-radius: 5px;
@@ -152,15 +152,25 @@ hr {
   font-weight: 300;
 }
 
-@media only screen and (max-width: 540px) {
-  .fa {
-    font-size: 2em !important;
+/* Bootstrap MD */
+@media only screen and (max-width: 992px) {
+  #content-container {
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
   }
+
+  .honor {
+    margin-bottom: 0;
+  }
+
+  .bullet-show {display: inline;}
+  .bullet-hide {display: none;}
 }
 
+/* Bootstrap SM */
 @media only screen and (max-width: 767px) {
   h1 {
-
     text-align: center;
   }
 
@@ -173,36 +183,28 @@ hr {
     margin-bottom: 20px;
   }
 
-  .honor {
-    margin-bottom: 0;
-  }
-
   .fa {
     font-size: 2.5em;
   }
-}
 
-@media only screen and (max-width: 992px) {
-  #content-container {
-    width: auto;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-
-  .bullet-show {display: inline;}
-  .bullet-hide {display: none;}
-}
-
-@media only screen and (max-width: 768px) {
   .abbreviated {display: inline;}
   .expanded {display: none;}
 }
 
+/* Bootstrap XS */
+@media only screen and (max-width: 576px) {
+  .fa {
+    font-size: 2em !important;
+  }
+}
+
+/* SM and greater */
 @media only screen and (min-width: 768px) {
   .abbreviated {display: none;}
   .expanded {display: inline;}
 }
 
+/* MD and greater */
 @media only screen and (min-width: 992px) {
   .bullet-show {display: none;}
   .bullet-hide {display: inline;}

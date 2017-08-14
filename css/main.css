@@ -160,6 +160,9 @@ hr {
     display: none; }
 
   .bullet-hide {
-    display: inline; } }
+    display: inline; }
+
+  .section-item-content {
+    padding-right: 180px; } }
 
 /*# sourceMappingURL=main.css.map */

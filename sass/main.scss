@@ -208,4 +208,7 @@ hr {
 @media only screen and (min-width: 992px) {
   .bullet-show {display: none;}
   .bullet-hide {display: inline;}
+  .section-item-content {
+    padding-right: 180px;
+  }
 }
